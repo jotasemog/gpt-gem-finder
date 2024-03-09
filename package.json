@@ -1,7 +1,16 @@
 {
-  "name": "gemfinder",
+  "name": "gpt-gem-finder",
   "version": "0.1.0",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jotasemog/gpt-gem-finder"
+  },
+  "website": "https://github.com/jotasemog/gpt-gem-finder.git",
+  "keywords": [
+    "next",
+    "tailwindcss",
+    "gpt"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,7 +23,6 @@
     "@tanstack/react-query": "^5.8.1",
     "@tanstack/react-query-devtools": "^5.8.1",
     "axios": "^1.6.1",
-    "cookbeast": "^1.0.0",
     "next": "14.1.3",
     "openai": "^4.14.2",
     "react": "^18",
